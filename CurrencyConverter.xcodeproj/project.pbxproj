@@ -11,6 +11,7 @@
 		D208CCFD2C3B4A2B00706B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208CCFC2C3B4A2B00706B8C /* ContentView.swift */; };
 		D208CCFF2C3B4A2C00706B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D208CCFE2C3B4A2C00706B8C /* Assets.xcassets */; };
 		D208CD022C3B4A2C00706B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D208CD012C3B4A2C00706B8C /* Preview Assets.xcassets */; };
+		D208CD0A2C3B522100706B8C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208CD092C3B522100706B8C /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D208CCFC2C3B4A2B00706B8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D208CCFE2C3B4A2C00706B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D208CD012C3B4A2C00706B8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D208CD092C3B522100706B8C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D208CCF92C3B4A2B00706B8C /* CurrencyConverter */ = {
 			isa = PBXGroup;
 			children = (
+				D208CD082C3B520B00706B8C /* Extensions */,
 				D208CCFA2C3B4A2B00706B8C /* CurrencyConverterApp.swift */,
 				D208CCFC2C3B4A2B00706B8C /* ContentView.swift */,
 				D208CCFE2C3B4A2C00706B8C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D208CD012C3B4A2C00706B8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D208CD082C3B520B00706B8C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D208CD092C3B522100706B8C /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D208CCFD2C3B4A2B00706B8C /* ContentView.swift in Sources */,
 				D208CCFB2C3B4A2B00706B8C /* CurrencyConverterApp.swift in Sources */,
+				D208CD0A2C3B522100706B8C /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

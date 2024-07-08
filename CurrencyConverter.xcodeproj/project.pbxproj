@@ -12,6 +12,7 @@
 		D208CCFF2C3B4A2C00706B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D208CCFE2C3B4A2C00706B8C /* Assets.xcassets */; };
 		D208CD022C3B4A2C00706B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D208CD012C3B4A2C00706B8C /* Preview Assets.xcassets */; };
 		D208CD0A2C3B522100706B8C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208CD092C3B522100706B8C /* Color.swift */; };
+		D208CD0E2C3C594600706B8C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208CD0D2C3C594600706B8C /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D208CCFE2C3B4A2C00706B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D208CD012C3B4A2C00706B8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D208CD092C3B522100706B8C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D208CD0D2C3C594600706B8C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D208CCFC2C3B4A2B00706B8C /* ContentView.swift */,
 				D208CCFE2C3B4A2C00706B8C /* Assets.xcassets */,
 				D208CD002C3B4A2C00706B8C /* Preview Content */,
+				D208CD0D2C3C594600706B8C /* Currency.swift */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D208CCFD2C3B4A2B00706B8C /* ContentView.swift in Sources */,
+				D208CD0E2C3C594600706B8C /* Currency.swift in Sources */,
 				D208CCFB2C3B4A2B00706B8C /* CurrencyConverterApp.swift in Sources */,
 				D208CD0A2C3B522100706B8C /* Color.swift in Sources */,
 			);
